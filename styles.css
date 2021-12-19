@@ -1,0 +1,75 @@
+body{
+    background-color: lightgray;
+}
+
+header {
+    color: darkolivegreen;
+    border:7px solid darkseagreen;
+    margin: 10px;
+    padding-top:0px;
+    padding-right:10px;
+    padding-bottom:0px;
+    padding-left: 10px;
+}
+
+ul{
+    color: brown;
+    padding-left:30px;
+}
+
+.green-border{
+    color: brown;
+    border:5px solid darkolivegreen;
+    margin:5px;
+    padding:10px;
+}
+
+footer  { 
+    background-color: darkgrey;
+    padding:1px 15px 1px 15px;
+    margin: auto;
+    width: 50%;
+    text-align:center;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.darkseagreen-border{
+    border:7px solid darkseagreen;
+    margin:10px;
+}
+
+#para-1{
+    color: darkolivegreen;
+    padding:0px 10px 0px 10px;
+    text-align: center;
+}
+
+nav, aside{
+    margin:10px;
+}
+
+.Me{
+    display:block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+
+}
+
+.links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;        
+}
+
+.links li{
+    display: inline;
+    padding: 80px;
+}
+
