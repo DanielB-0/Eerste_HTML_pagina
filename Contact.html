@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title> Contact me </title>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    </head>
+
+
+    <body>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Name: <br><input type="text" name="name" /></label>
+            </p>
+
+            <p>              
+              <label>Email: <br><input type="email" name="email" /></label>
+            </p>
+
+            <p>              
+              <label>Phone number: <br><input type="tel" name="tel" /></label>
+            </p>
+
+            <p>              
+              <label>Age: <br><input type="number" name="age" /></label>
+            </p>
+
+            <p>              
+              <label>Date of birth: <br><input type="date" name="birth" /></label>
+            </p>
+
+            <p><label>Gender:<br>
+                <input type="radio" name="gender" value="Male"/>Male
+                <input type="radio" name="gender" value="Female"/>Female
+                <input type="radio" name="gender" value="Neutral"/>Neutral
+              </label>
+              </p>
+
+              <p>
+              <label>Favorite cuisine: (multiple answers possible)<br>
+              <input type="checkbox" name="French" value="1">French<br>             
+              <input type="checkbox" name="Italian" value="1">Italian<br>
+              <input type="checkbox" name="Spanish" value="1">Spanish<br>
+              <input type="checkbox" name="Arabic" value="1">Arabic<br>
+            </label>
+            </p>
+            
+            <p>
+              <label>Favorite apron color: <input type="color" name="apron" /></label>
+            </p>
+     
+            <p>
+              <label>Biography: <br><textarea name="biography"></textarea></label>
+            </p>
+            
+            <p>
+              <label>Upload your latest recipe: <input type="file" name="recipe" /></label>
+            </p>
+
+            <p>
+              <label>URL to recipe: <br><input type="url" name="url" /></label>
+            </p>
+
+            <p>
+              <button type="reset">Reset</button>
+           </p>
+
+            <p>
+              <button type="submit">Submit</button>
+            </p>
+          </form>
+           
+          <br>
+          <br>
+    <footer>
+        <a href="index.html">Home</a>
+    </footer>
+
+</body>
+</html>
