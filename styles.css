@@ -1,0 +1,246 @@
+.logo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#contact-nav {
+    margin-bottom: 100px;
+}
+
+a {
+    display: inline-block;
+    color: black;
+    padding: 0px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: Marmelad, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.active {
+    background-color: darkkhaki;
+    padding-bottom: 2px;
+    border-radius: 3px;
+}
+
+h1 {
+    font-family: Niramit, sans-serif;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.homescreen {
+    max-width: 100%;
+}
+
+.pc-screen {
+    max-width: 100%;
+    display: none;
+}
+
+.Pasfoto {
+    height: 350px;
+    margin: 25px 25px 0px 25px;
+    float: left;
+}
+
+.about-me {
+    font-family: Niramit, sans-serif;
+    font-size: 16px;
+    max-width: 95%;
+    padding: 20px 0px 0px 25px;
+}
+
+h2 {
+    font-family: Niramit, sans-serif;
+    font-size: 16px;
+    padding-left: 25px;
+}
+
+.follow {
+    font-family: Niramit, sans-serif;
+    font-size: 16px;
+    padding: 0px 0px 0px 25px;
+}
+
+ul {
+    padding-left: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.hobbies {
+    display: block;
+    font-family: Niramit, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.portfolio img{
+    max-width: 100%;
+}
+
+label {
+    font-family: Marmelad, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+input {
+    width: 50%;
+    height: 40px;
+    border: 1px solid darkkhaki;
+    border-radius: 3px;
+    margin: 10px 0px 20px 30px;
+}
+
+textarea {
+    width: 75%;
+    height: 150px;
+    border: 1px solid darkkhaki;
+    border-radius: 3px;
+    margin: 10px 10px 20px 30px;
+    resize: none;
+    box-sizing: border-box;
+    font-family: Marmelad, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+button {
+    background-color: darkkhaki;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    font-family: Marmelad, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+footer {
+    font-family: Marmelad, sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .logo {
+        width: 40%;
+        margin-top: 2%;
+    }
+    
+    .homescreen {
+        display: none;
+    }
+
+    .pc-screen {
+        display: block;
+    }
+
+    h1 {
+        margin-top: 30px;
+        font-size: 25px;
+        padding-left: 15px;
+    }
+
+    .Pasfoto {
+        height: 175px;
+        margin: 5px 20px 5px 15px;
+    }
+
+    .about-me {
+        padding-top: 0px;
+        margin-bottom: 100px;
+        max-width: 75%;
+    }
+
+    h2 {
+        padding-left: 15px;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .follow {
+        padding-left: 15px;
+        font-size: 16px;
+        max-width: 75%;
+        margin-top: 0;
+    }
+
+    .hobbies {
+        display: inline;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    form {
+        margin-top: 125px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    input {
+        width: 15%;
+        height: 20px;
+        margin: 5px 0px 15px 30px;
+    }
+
+    textarea {
+        width: 25%;
+        font-size: 16px;
+    }
+
+    button {
+        cursor: pointer;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: olive;
+    }
+
+    a:hover {
+        background-color: lightgray;
+        padding-bottom: 2px;
+        border-radius: 3px;
+    }
+
+    footer {
+        font-size: 18px;
+    }
+}
